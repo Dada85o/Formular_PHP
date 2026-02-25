@@ -1,7 +1,7 @@
-<?php include 'db.php';?>
+<?php include 'db.php'; ?>
 <html>
 <head>
-    <title>Stránka</title>
+    <title>Formular</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="style/style.css">
@@ -20,10 +20,10 @@
         $vysledek = $spojeni->query($dotaz);
         if ($vysledek->num_rows > 0) {
             while ($radek = $vysledek->fetch_assoc()) {
-                echo "<p>" . $radek["jmeno"] . " " . $radek["prijmeni"] . ": " . $radek["koment"] . "</p>";
+                echo "<p>" . $radek["Jmeno"] . " " . $radek["Prijmeni"] . ": " . $radek["Koment"] . "</p>";
             }
         } else {
-            echo "<p>Žádné záznamy</p>";
+            echo "<p>Žádné recenze</p>";
         }
         ?>
     </div>
