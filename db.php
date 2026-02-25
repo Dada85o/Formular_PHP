@@ -1,9 +1,9 @@
 <?php
-
 $servername = "localhost";
 $username = "root";
-$password = "root";
+$password = "";
 $dbname = "formular";
+
 
 $spojeni = new mysqli($servername, $username, $password, $dbname);
 
