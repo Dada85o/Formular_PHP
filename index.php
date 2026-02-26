@@ -1,4 +1,8 @@
+<!--// Zdroj:   https://github.com/VitaPhoneCZ/opakovani_recenze.git 
+                https://www.w3schools.com/php/php_mysql_insert.asp-->
+
 <?php include 'db.php'; ?>
+
 <html>
 <head>
     <title>Formular</title>
