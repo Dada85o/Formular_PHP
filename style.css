@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Lucida Console, Monaco, monospace;
+    background: #535353;
+    color: #5aff0d;
+    min-height: 100vh;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background: black;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.411);
+}
+
+.jmeno{
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    
+}
+
+form input[type="submit"] {
+    background: #00ff15;
+    color: #000000;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 50px;
+    margin-bottom: 30px;
+}
+
+form input[type="submit"]:hover {
+    background: hsl(93, 100%, 16%);
+    color: #ffffff;
+}
+
+
+.container p {
+    margin: 10px 0;
+    transition: .4s ease all;
+}
